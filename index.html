@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>CALCULATOR PROJECT</title>
+        <script src="02.js"></script>
+        <link rel="stylesheet" href="01.css">
+    </head>
+    <body>
+        <div class="app"></div>
+        <div class="workspace">
+           <div class="heading1">
+                <l1><b> NUM1:</b></l1>
+            </div>
+            <div class="heading2">   
+         
+                <l2><b> NUM2:</b></l2>
+            </div>   
+            <div class="heading3">    
+                <l3><b>RESULT:</b></l3>
+            </div>
+           
+            <div class="input" id="input">
+            <input type="text" class="input1" placeholder="ENTER NUM1" style="border: 2px solid black " id="num1">
+            
+           <input type="text" class="input2" placeholder="ENTER NUM2" style="border:2px solid black"  id="num2">
+            <br>
+            <br>
+            <input type="text " class="input3" placeholder="RESULT" style="border:2px solid black" id="result">
+        </div>
+        <div class="btn" id="btn">
+            <button type="input" class="button1" style="border: 2px solid black;width:50%;" onclick="add()"><B>ADDITION      </B></button>
+            <br>
+            <br>
+            <button type="input" class="button2"  style="border: 2px solid black;width:50%;"
+            onclick="sub()"><B>SUBSRACTION   </B></button>
+            <br>
+            <br>
+            <button type="input" class="button3"  style="border: 2px solid black;width:50%;"onclick="multiply()"><B>MULTIPLICATION</B></button>
+            <br>
+            <br>
+            <button type="input"  class="button4"  style="border: 2px solid black;width:50%;"onclick="divide() "><B>DIVISION      </B></button>
+            <br>
+            <br>
+            <button type="input" class="button5" style="border: 2px solid black;width:50%;" onclick="remain() "><B>REMAINDER     </B></button>
+
+            <button type="input" class=" refresh-btn" style=" border: 2px solid black;  width:25%;" onclick="refresh() "><B>REFRESH     </B></button>
+        </div>
+       
+        </div>
+        <div class="name"><b>@mr.ravi_cyber</b></div>
+        
+
+    </body>
+</html>

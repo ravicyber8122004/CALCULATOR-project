@@ -1,0 +1,125 @@
+.app{
+    background-color: rgb(9, 9, 67);
+    height:100%;
+    width:100%;
+    z-index: 10;
+}
+.workspace{
+    background-color:white;
+    width:80%;
+    height:80%;
+    z-index:20;
+    position: absolute;
+    left:10%;
+    top:10%;
+    border:5px solid black;  
+}
+.input1{
+position:absolute;
+  left:40%;
+  top:5% 
+  
+}
+.input2{
+    position:absolute;
+      left:40%;
+      top:16% 
+    }
+.input3{
+        position:absolute;
+          left:40%;
+          top:27% 
+          
+        }
+.heading1 {
+  position:absolute;
+  left:7%;
+  top:5%
+}
+.heading2 {
+    position:absolute;
+    left:7%;
+    top:16%
+}
+.heading3 {
+    position:absolute;
+    left:7%;
+    top:27%
+}
+       
+
+.button1{
+    position:absolute;
+    left:5%;
+    top:41.8%;
+    height:5%;
+}
+.button2{
+    
+        position:absolute;
+        left:5%;
+        top:51.8%;
+        height:5%;
+    }
+
+
+.button3{
+    position:absolute;
+    left:5%;
+    top:61.8%;
+    height:5%;
+}
+.button4{
+    position:absolute;
+    left:5%;
+    top:71.8%;
+    height:5%;
+}
+.button5{
+    position:absolute;
+        left:5%;
+        top:81.8%;
+        height:5%;
+}
+.button1:hover:not([disabled]){
+    background: black;
+    color:white;
+}
+.button2:hover:not([disabled]){
+        background: black;
+        color:white;
+
+}
+.button3:hover:not([disabled]){
+    background: black;
+    color:white;
+}
+.button4:hover:not([disabled]){
+        background: black;
+        color:white;
+
+}
+.button5:hover:not([disabled]){
+    background: black;
+    color:white;
+
+}
+.refresh-btn{
+    position:absolute;
+    left:65%;
+    top:41.8%;
+    height:5%;
+    
+}
+.refresh-btn:hover:not([disabled]){
+    background-color: black;
+    color:white;
+}
+.name{
+    position:absolute;
+    left:65%;
+    top:80%;
+    z-index: 100;
+    color:black;
+    font-size: 200%;
+}
